@@ -452,7 +452,7 @@ for (let i = 0; i < jsonData.length; i++){
         spotifyLink.setAttribute("href",jsonData[number].songLink);
 
       
-        spotifyCover.src = "../album-covers/"+jsonData[number].image+".jpeg";
+        spotifyCover.src = "album-covers/"+jsonData[number].image+".jpeg";
         spotifyTitle.textContent = jsonData[number].songName;
         spotifyArtist.textContent = jsonData[number].artistName;
         spotifyListenTo.textContent = jsonData[number].listenedToTheMost;
